@@ -1,6 +1,8 @@
+import twilio.TwilioSender;
+
 public class SmsSenderApplication {
 
     public static void main(String[] args) {
-        // TODO: write your code here
+        new TwilioSender().send();
     }
 }
